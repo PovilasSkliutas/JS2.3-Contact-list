@@ -6,15 +6,27 @@
         <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
         <!--jQuery links-->
         <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+        <!--bootstrap links-->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <!--local links-->
         <link type="text/css" rel="stylesheet" href="css/style.css">
         <title>JS 2.3 contact list</title>
     </head>
     <body>
-        <button id="list" type="button">List</button>
-        <button id="new" type="button">New</button>
-        <div class="form1">
-
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <h3>Contact list</h3>
+                    <button id="getList" type="button" class="btn btn-primary btn-sm">Get List</button>
+                    <button id="new" type="button" class="btn btn-primary btn-sm">New</button>
+                    <h2></h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="content col">
+                </div>
+            </div>
         </div>
 
         <!--Mygtukas su 3 divais
@@ -29,6 +41,9 @@
             div element 3
         </div>
     -->
-    </body>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
     <script src="js/list.js"></script>
+    </body>
 </html>
